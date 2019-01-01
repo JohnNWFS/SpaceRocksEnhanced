@@ -1,22 +1,21 @@
 /// @description Insert description here
 // You can write your code in this editor
 if (room == rm_game) {
-	
+
+	destroy_count = 0;
+	destroy_count_max = 7 * level;
+
 	 if (audio_is_playing(msc_song)) {
 	    audio_stop_sound(msc_song);
 	 }
 	 audio_play_sound(msc_song, 2, true);
 	
-	repeat (6) {
-		var xx = choose(
-			irandom_range(0, room_width * 0.3),
-			irandom_range(room_width * 0.7, room_width)
-		);
-		var yy = choose(
-			irandom_range(0, room_height * 0.3),
-			irandom_range(room_height * 0.7, room_height)
-		);
-		instance_create_layer(xx, yy, "Instances", obj_asteroid);
+	repeat (level) {
+	var xx = choose((-60), (room_width+60));
+	var yy = choose((-60), (room_height+60));
+
+	var arock = instance_create_layer(xx, yy, "Instances", obj_asteroid);
+	arock.xx = xx; arock.yy = yy;
 	}
 	
 	alarm[0] = 60;

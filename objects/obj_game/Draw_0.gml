@@ -5,6 +5,10 @@ switch (room) {
 	case rm_game:
 		draw_text(20, 20, "Score: " + string(score));
 		draw_text(20, 40, "Lives: " + string(lives));
+		draw_text(140, 20, "Level: " + string(level));
+		draw_text(140, 40, "Rocks to next level: " + string(destroy_count_max - destroy_count));
+				
+		
 		break;
 		
 	case rm_start:
@@ -51,3 +55,16 @@ SPACE: shoot
 		break;
 	
 }
+if (levelup = 1)
+{
+		draw_set_halign(fa_center);
+		var c = c_yellow;
+		draw_text_transformed_color(
+			room_width/2, 150, "Levelling up!", 3, 3, 0, c, c, c, c, 1
+		);
+		draw_text(room_width/2, 250, "CURRENT LEVEL: " + string(level));
+		draw_set_halign(fa_left);
+}
+//if (astring != "") {draw_text(200,200,total_rocks);}
+
+	

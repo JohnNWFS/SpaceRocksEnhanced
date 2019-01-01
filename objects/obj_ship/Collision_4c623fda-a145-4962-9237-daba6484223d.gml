@@ -2,6 +2,8 @@
 // You can write your code in this editor
 lives -= 1;
 
+my_thrust.draw_thrust = 0;
+
 with (obj_game) {
 	alarm[1] = room_speed;
 }

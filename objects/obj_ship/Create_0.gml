@@ -3,6 +3,10 @@
 shieldcount = instance_number(obj_shield);
 thrustcount = instance_number(obj_shield);
 
+if (shieldcount > 0) {with (instance_find(obj_shield,0)) {instance_destroy();}	}
+if (thrustcount > 0) {with (instance_find(obj_shield,0)) {instance_destroy();}	}
+
+
 if (shieldcount < 1) {
 my_shield = instance_create_layer(x,y,"Instances",obj_shield);}
 

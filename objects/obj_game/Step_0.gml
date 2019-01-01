@@ -24,3 +24,13 @@ if (room == rm_game) {
 		audio_play_sound(snd_lose, 1, false);
 	}
 }
+
+
+if (destroy_count >= destroy_count_max && !alarm[1])
+{
+level += 1;
+levelup = 1;
+with (obj_asteroid) {instance_destroy();}
+alarm[1] = room_speed*3;
+
+}

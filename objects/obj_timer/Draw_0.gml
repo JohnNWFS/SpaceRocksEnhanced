@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if (image_index == spr_stopwatch)
 {
-	if (instance_exists(my_ship))
+	if (instance_exists(my_ship) && alarm[0])
 	{
 		draw_self();
 		//use 7 as imagex and y scale halved
