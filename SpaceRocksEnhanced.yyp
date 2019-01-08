@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "06878a92-4efc-4fda-9071-8ad52f4b61be",
+            "Value": {
+                "id": "7fcfadf0-94dc-4eb7-966a-8eb7a3e148ca",
+                "resourcePath": "sprites\\coin_blue\\coin_blue.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "08ca174e-f4c5-4ddc-bd6f-812235f3eb70",
             "Value": {
                 "id": "8412f24e-07bc-4ce7-affa-885719a8dde1",
@@ -99,6 +107,14 @@
             "Value": {
                 "id": "533aabb8-9a73-4336-aa22-dd41945dd346",
                 "resourcePath": "views\\1995c8c4-3444-448d-93a9-5fc637000c1c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1ba31047-f42e-492d-8268-6fab93220e41",
+            "Value": {
+                "id": "6062f302-a5ff-4d11-a1d5-8902d578011e",
+                "resourcePath": "views\\1ba31047-f42e-492d-8268-6fab93220e41.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -191,6 +207,14 @@
             }
         },
         {
+            "Key": "427e91b7-d83e-4737-baca-cff52e3a6c0c",
+            "Value": {
+                "id": "e5bf93a1-f5a7-4e7c-bb0a-1b62b5a1ef67",
+                "resourcePath": "sprites\\sprite11\\sprite11.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "452eed78-04b9-420c-b562-5e9ca034ff43",
             "Value": {
                 "id": "14db82a5-41f8-43c6-a04d-f0d05f5a7c7e",
@@ -228,6 +252,14 @@
                 "id": "23c67f44-7071-4afa-9bff-da3e034a8952",
                 "resourcePath": "datafiles_yy\\msc_song.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "6dfc8b11-53dd-494d-a007-3910a026a933",
+            "Value": {
+                "id": "b281611d-762d-4ab6-8d3a-754381163a33",
+                "resourcePath": "sprites\\spr_stars2\\spr_stars2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -292,6 +324,14 @@
                 "id": "3b3eb9f7-187c-4435-a497-c26810580c91",
                 "resourcePath": "sounds\\snd_hit\\snd_hit.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "8e3ffe05-6b1a-475b-b6ec-7c7d5962cbbe",
+            "Value": {
+                "id": "9367ea73-d760-421c-80eb-8492fcc038c6",
+                "resourcePath": "sprites\\spr_coin_double\\spr_coin_double.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -415,6 +455,14 @@
             }
         },
         {
+            "Key": "ce498e0a-17ff-471e-ac7d-af2722acacf2",
+            "Value": {
+                "id": "ef2f1e31-8545-496f-af48-353505fe28ae",
+                "resourcePath": "objects\\obj_powerup\\obj_powerup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d0362744-5212-4fa6-935e-cc17cb72f890",
             "Value": {
                 "id": "336b046b-6425-4f47-8d9b-4bb4862fde4f",
@@ -447,6 +495,14 @@
             }
         },
         {
+            "Key": "d9734774-7efc-45eb-9fb8-088f3243f66e",
+            "Value": {
+                "id": "ac25a1fd-da8c-42ec-a8bd-a25956e4a149",
+                "resourcePath": "views\\d9734774-7efc-45eb-9fb8-088f3243f66e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
             "Value": {
                 "id": "155429c9-d9a9-4092-8994-04c391afe04d",
@@ -468,6 +524,14 @@
                 "id": "4218665b-7a80-4697-a13e-2473f198b6a3",
                 "resourcePath": "rooms\\rm_gameover\\rm_gameover.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "f183dd12-51e5-459c-99a4-cc65b8b82ae5",
+            "Value": {
+                "id": "ce0db4aa-c2bb-4f5d-8297-8ef8fec15917",
+                "resourcePath": "sprites\\spr_coin_xplode\\spr_coin_xplode.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

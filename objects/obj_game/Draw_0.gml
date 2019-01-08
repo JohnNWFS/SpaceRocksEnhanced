@@ -15,18 +15,29 @@ switch (room) {
 		draw_set_halign(fa_center);
 		var c = c_yellow;
 		draw_text_transformed_color(
-			room_width/2, 100, "SPACE ROCKS", 3, 3, 0, c, c, c, c, 1
+			room_width/2, 75, "SPACE ROCKS", 3, 3, 0, c, c, c, c, 1
+		);
+		draw_text_transformed_color(
+			room_width/2, 128, "ENHANCED", 3, 3, 0, c, c, c, c, 1
 		);
 		draw_text(
 			room_width/2, 200,
 			@"Score 1,000 points to win!
 
-UP: move
-LEFT/RIGHT: change direction
+UP or W: move
+LEFT/RIGHT or A/S: change direction
 SPACE: shoot
+DOWN or S: shield
+
+POWER UPS:
+:Double Sized Bullet
+
+:Exploding Bullets
 
 >> PRESS ENTER TO START <<"
 		);
+
+		
 		draw_set_halign(fa_left);
 		break;
 		
@@ -65,6 +76,6 @@ if (levelup = 1)
 		draw_text(room_width/2, 250, "CURRENT LEVEL: " + string(level));
 		draw_set_halign(fa_left);
 }
-//if (astring != "") {draw_text(200,200,total_rocks);}
+//{draw_text(200,200,alarm[2]);}
 
 	

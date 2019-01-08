@@ -1,11 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 shieldcount = instance_number(obj_shield);
-thrustcount = instance_number(obj_shield);
+thrustcount = instance_number(obj_thrust);
 
 if (shieldcount > 0) {with (instance_find(obj_shield,0)) {instance_destroy();}	}
-if (thrustcount > 0) {with (instance_find(obj_shield,0)) {instance_destroy();}	}
+if (thrustcount > 0) {with (instance_find(obj_thrust,0)) {instance_destroy();}	}
 
+shieldcount = instance_number(obj_shield);
+thrustcount = instance_number(obj_thrust);
 
 if (shieldcount < 1) {
 my_shield = instance_create_layer(x,y,"Instances",obj_shield);}
@@ -21,3 +23,6 @@ my_thrust.my_ship = id;
 draw_thrust = 0;
 shields_on = 0;
 shields_power = 100;
+
+exploding = 0; //are bullets exploding type
+doublesize = 0; //are bullets doubled in size?

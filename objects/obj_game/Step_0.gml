@@ -23,6 +23,12 @@ if (room == rm_game) {
 		room_goto(rm_gameover);
 		audio_play_sound(snd_lose, 1, false);
 	}
+	//start power up timer
+	if (!alarm[3] && !alarm[1]) 
+	{
+		alarm[3] = 60;//irandom_range(room_speed*5,room_speed*20);
+	}
+	//show_debug_message("ALARM 3: " + string(alarm[3]));
 }
 
 
@@ -33,4 +39,11 @@ levelup = 1;
 with (obj_asteroid) {instance_destroy();}
 alarm[1] = room_speed*3;
 
+}
+if (exploding == 0 && instance_exists(my_ship)) {my_ship.exploding = 0;}
+if (doublesize == 0 && instance_exists(my_ship)) {my_ship.doublesize = 0;}
+
+if (instance_exists(obj_ship))
+{
+	my_ship = instance_find(obj_ship,0);	
 }

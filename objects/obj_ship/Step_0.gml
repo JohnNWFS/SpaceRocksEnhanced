@@ -52,6 +52,10 @@ if (instance_exists(my_shield))
 
 if (keyboard_check_pressed(vk_space)) {
 	var bullet_inst = instance_create_layer(x, y, "Instances", obj_bullet);
+	if (exploding == 1) {bullet_inst.exploding = 1;}
+	if (doublesize == 1) {bullet_inst.doublesize = 1;}
+	
+	
 	bullet_inst.direction = image_angle;
 	audio_play_sound(snd_zap,1,false)
 }
