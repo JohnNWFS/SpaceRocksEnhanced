@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (keyboard_check_pressed(vk_enter)) {
+if (keyboard_check_pressed(vk_enter) || mouse_check_button(mb_left)) {
 	switch (room) {
 		case rm_start:
 			room_goto(rm_game);

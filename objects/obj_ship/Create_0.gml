@@ -26,3 +26,25 @@ shields_power = 100;
 
 exploding = 0; //are bullets exploding type
 doublesize = 0; //are bullets doubled in size?
+
+mousex_press_location = 0;
+mousey_press_location = 0;
+mouse_left_pressed = 0;
+mouse_left_released = 0;
+mousepressed = 0;
+heldsteps = 0;
+drawmousexy = 0; //draw mouse x y for testing, not that the mouse is sexy
+aclick_happened = 0;
+
+rotate_left = 0; //test for whether spin left is activated
+rotate_right = 0; //test for whether spin right is activated
+fire_shot = 0; //trigger that tells us a shot has been fired
+shield_trigger = 0; //trigger that shield has been enabled (or attempted to be)
+thrust_trigger = 0; //trigger for thrust enabled through swipe
+
+swipe_check_started = 0; //check if a swipe might have started
+swipe_timer = 0; //special timer counting steps before swipe may be triggered
+swipe_time_max = 10; //time when, if release happens after this amount of time, a swipe is triggered
+swipe_check_xstart = 0; 
+swipe_check_ystart = 0;
+
